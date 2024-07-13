@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="elementos.js" defer></script>
+    <style>
+        .card {
+            width: 250px;
+            border: 2px solid rgba(0, 0, 0, 0.29);
+            border-radius: 14px;
+            height: 250px;
+        }
+
+        .btn--primario {
+            background-color: darkblue;
+            color: white;
+            
+        }
+
+        .btn--secundario {
+            background-color: white;
+            color: darkblue;
+        }
+
+        .botoes {
+            display: flex;
+
+        }
+
+        .seletor--tamanho {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 72px;
+            width: 72px;
+            border-radius: 50%;
+            background-color: black;
+            color: white;
+            text-transform: uppercase;
+            font-size: 32px;
+        }
+
+        #tamanhos {
+            margin-top: 100px;
+            display: flex;
+            gap: 24px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <section>
+        <!-- <img src="..." alt="Imagem Falhou"> -->
+        <article class="card">
+            <h2 class="titulo--card">Viajem para o Camboja</h2>
+             <p class="desc--card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatum rerum excepturi esse dolore labore laudantium nemo hic totam distinctio exercitationem, beatae nihil quia similique molestiae corporis facere dolores quibusdam?</p>
+             <button class="btn--primario">Reserve</button>
+             <button class="btn-secundario">Saiba mais</button>
+        </article>
+    </section>
+    <!-- Criação de elementos em MASSA -->
+    <section id="tamanhos">
+        <div class="seletor--tamanho">
+            <span class="tamanho">PP</span>
+        </div>
+    </section>
+</body>
+</html>
